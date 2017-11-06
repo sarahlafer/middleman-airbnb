@@ -1,16 +1,16 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <!-- <img src="images/logo.png" alt="logo"> -->
+   <a href="/" class="navbar-wagon-brand">
+    <!-- <%= link_to "/", "/index.html", class: "navbar-wagon-brand" %> -->
     <%= image_tag("logo.png", alt:"logo") %>
   </a>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <a href="/index.html" class="navbar-wagon-item navbar-wagon-link">Host</a>
-    <a href="/index.html" class="navbar-wagon-item navbar-wagon-link">Trips</a>
-    <a href="/team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
+    <%= link_to "Team", "/team.html", class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
